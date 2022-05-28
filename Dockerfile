@@ -16,7 +16,7 @@ RUN conda config --add channels conda-forge && \
     bash_kernel \
     octave_kernel \
     Scala
-    spylon-kernel \
+#    spylon-kernel \
     Java
     scijava-jupyter-kernel \
     ansible
