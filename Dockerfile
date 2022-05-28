@@ -14,15 +14,15 @@ RUN conda config --add channels conda-forge && \
     biopython \
     rpy2 \
     bash_kernel \
-#   octave_kernel \
+    #octave_kernel \
     Scala
-#   spylon-kernel \
-#   Java
-#   scijava-jupyter-kernel \
-#   ansible
+    #spylon-kernel \
+    #Java
+    #scijava-jupyter-kernel \
+    #ansible
     ansible-kernel \
     bioblend galaxy-ie-helpers \
-#   Jupyter widgets
+    #Jupyter widgets
     jupytext \
     cython patsy statsmodels cloudpickle dill r-xml && conda clean -yt && \
     pip install jupyterlab_hdf
