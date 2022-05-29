@@ -27,7 +27,7 @@ RUN conda config --add channels conda-forge && \
     cython patsy statsmodels cloudpickle dill r-xml && conda clean -yt && \
     pip install jupyterlab_hdf
     pip install pyspark
-    pip install spylon-kernel
+    
     
 ADD ./startup.sh /startup.sh
 #ADD ./monitor_traffic.sh /monitor_traffic.sh
